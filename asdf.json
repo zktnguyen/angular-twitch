@@ -1,0 +1,103 @@
+[
+  {
+    "username": "Doublelift", "info":
+    {
+      "name": "Doublelift",
+      "logo": null,
+      "stream": "https://twitch.tv",
+      "statusIcon": null,
+      "status": null
+    }
+  },
+  {
+  "ESL_SC2" :
+    {
+      name: "ESL_SC2",
+      logo: null,
+      stream: "https://twitch.tv",
+      statusIcon: null,
+      status: null
+    },
+  }
+  
+  "freecodecamp" :
+    {
+      name: "freecodecamp",
+      logo: null,
+      stream: "https://twitch.tv",
+      statusIcon: null,
+      status: null
+    },
+  "OgamingSC2" :
+    {
+      name: "OgamingSC2",
+      logo: null,
+      stream: "https://twitch.tv",
+      statusIcon: null,
+      status: null
+    },
+  "cretetion" :
+    {
+      name: "cretetion",
+      logo: null,
+      stream: "https://twitch.tv",
+      statusIcon: null,
+      status: null
+    },
+  "storbeck" :
+    {
+      name: "storbeck",
+      logo: null,
+      stream: "https://twitch.tv",
+      statusIcon: null,
+      status: null
+    },
+  "brunofin" :
+    {
+      name: "brunofin",
+      logo: null,
+      stream: "https://twitch.tv",
+      statusIcon: null,
+      status: null
+    },
+  "habathcx" :
+    {
+      name: "habathcx",
+      logo: null,
+      stream: "https://twitch.tv",
+      statusIcon: null,
+      status: null
+    },
+  "RobotCaleb" :
+    {
+      name: "RobotCaleb",
+      logo: null,
+      stream: "https://twitch.tv",
+      statusIcon: null,
+      status: null
+    },
+  "noobs2ninjas" :
+    {
+      name: "noobs2ninjas",
+      logo: null,
+      stream: "https://twitch.tv",
+      statusIcon: null,
+      status: null
+    },
+  "comster404" :
+    {
+      name: "comster404",
+      logo: null,
+      stream: "https://twitch.tv",
+      statusIcon: null,
+      status: null
+    },
+  "dfx":
+    {
+      name: "dfx",
+      logo: null,
+      stream: "https://twitch.tv",
+      statusIcon: null,
+      status: null
+    }
+];

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Twitch.TV API Stream List</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body ng-app="twitchApp">
+    <div ng-controller="MainController" class="fill container" id="main-display">
+      <h1 class="text-center">{{ title }} </h1>
+      <ul class="nav nav-pills">
+        <li role="presentation" ng-repeat="list in lists" ng-class="{active : activeList === list}">
+          <a href="#" ng-click="setActive(list)">{{list}}</a>
+        </li>
+      </ul>
+      <ul class="display-list" ng-repeat="list in lists" ng-class="{hide : activeList !== list}">
+        <li ng-repeat="user in users">
+          <a href="{{user.stream}}" target='_blank'>
+            <img src="{{user.logo}}" class="logo" alt="{{user.name}}">
+            <br>
+            <div class="logo-caption">
+              <span class="{{user.statusIcon}}"></span>
+              <h4>{{user.name}}</h4>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </body>
+  <script src="angular/angular.min.js"></script>
+  <script src="app.js"></script>
+  <script src="twitch.js"></script>
+  <script src="MainController.js"></script>
+</html>

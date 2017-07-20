@@ -1,0 +1,76 @@
+html, body {
+  background-color: pink!important;
+  height: 100%;
+}
+
+.fill {
+  min-height: 100%;
+}
+
+#main-display {
+  background-color: white;
+
+}
+
+.logo {
+  width: 160px;
+  border-radius: 50%;
+  
+}
+
+.hide {
+  display: none;
+}
+
+ul > a, ul > a:link, ul > a:hover, ul > a:active, ul > a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.glyphicon-play-circle{
+  color: green;
+  width: 14px;
+  text-align: left;
+}
+
+.glyphicon-off {
+  width: 14px;
+  color: grey;
+  text-align: left;
+}
+
+.nav.nav-pills > li > a, .nav.nav-pills > li > a:visited {
+  color: black;
+}
+
+.nav.nav-pills > li.active > a {
+  background-color: transparent;
+  border-bottom: 2px solid pink;
+  border-radius: 0%;
+}
+
+.nav.nav-pills > li > a:hover {
+  border-radius: 0%;
+}
+.nav.nav-pills > li.active > a:hover {
+  background-color: grey;
+  border-radius: 0%;
+}
+
+ul.display-list > li{
+  list-style-type: none;
+  padding: 10px 30px 10px 30px;
+  margin: 20px;
+  display: inline-block;
+  text-align: center;
+}
+
+.logo-caption>h4 {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.logo-caption {
+  display:inline-block;
+  text-align: center;
+}
