@@ -101,7 +101,7 @@ app.controller("MainController", function($scope, twitch){
 };
   $scope.lists = ['All', 'Online', 'Offline'];
   $scope.activeList = $scope.lists[0];
-  
+  $scope.currentList = "All";
   var onError = function(error) {
     $scope.error = "Could not fetch data";
   };

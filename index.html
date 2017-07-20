@@ -15,8 +15,8 @@
           <a href="#" ng-click="setActive(list)">{{list}}</a>
         </li>
       </ul>
-      <ul class="display-list" ng-repeat="list in lists" ng-class="{hide : activeList !== list}">
-        <li ng-repeat="user in users">
+      <ul class="display-list" ng-repeat="list in lists" ng-class="{hide : activeList !== list}" ng-model="currentList">
+        <li ng-repeat="user in users" >
           <a href="{{user.stream}}" target='_blank'>
             <img src="{{user.logo}}" class="logo" alt="{{user.name}}">
             <br>
